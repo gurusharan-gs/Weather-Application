@@ -1,0 +1,126 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.App {
+  text-align: center;
+  margin: 50px auto 0px;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  height: 470px;
+  padding: 20px 15px;
+  background: rgba(255, 255, 255, 0.87);
+}
+
+.search-engine {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.search-engine input {
+  width: 60%;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 2px 15px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+  color: #555;
+}
+
+.search-engine button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.8em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.search-engine button:hover {
+  border-color: #646cff;
+}
+.search-engine button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.city-name h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.temp {
+  font-weight: bold;
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #1a1a1a;
+}
+
+.description {
+  color: #1a1a1a;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+}
+
+.loading {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #1a1a1a;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.current-time {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
